@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script type="text/javascript">
- var a = 2.9 + 5.98;
- document.write("a: "+a);
+
+<p>This example calls a function which returns the value of PI:</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  return Math.PI;
+}
+
+document.getElementById("demo").innerHTML = myFunction();
 </script>
+
 </body>
 </html>
