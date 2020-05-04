@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Testo de formularo</title>
+  </head>
+<body>
+<script>
+function formSubmit() {
+ var nombro = document.forms[0].elements[0].value;
+ var rzlt = nombro*nombro;
+// window.open(, "_self");
+alert(rzlt);
+}
+</script>
+  <h1>Testo</h1> 
+  <form>
+Nombro: <input type="number" name="tk01" />
+<input type="button" value="Sendi"
+   onclick="formSubmit()" />
+</form>
+</body>
+</html>
